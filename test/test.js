@@ -14,7 +14,7 @@
 
   /** Load libraries. */
   var _ = root._ || require('lodash'),
-      Benchmark = root.Benchmark || require('../benchmark.js'),
+      Benchmark = root.Benchmark || require('../index'),
       QUnit = root.QUnit || require('qunit-extras');
 
   /** Used to create dummy benchmarks for comparisons. */

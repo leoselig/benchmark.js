@@ -17,7 +17,7 @@
 
       // Load test.js if not using require.js.
       document.write(QUnit.urlParams.norequire
-        ? '<script src="../benchmark.js"><\/script><script src="test.js"><\/script>'
+        ? '<script src="../dist/umd.js"><\/script><script src="test.js"><\/script>'
         : '<script src="../node_modules/requirejs/require.js"><\/script>'
       );
     </script>

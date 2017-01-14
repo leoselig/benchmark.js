@@ -1,1 +1,1 @@
-module.exports = require('./benchmark');
+module.exports = require('./lib/index');
