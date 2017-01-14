@@ -15,7 +15,8 @@
   "repository": "bestiejs/benchmark.js",
   "scripts": {
     "doc": "docdown benchmark.js doc/README.md style=github title=\"<a href=\\\"https://benchmarkjs.com/\\\">Benchmark.js</a> <span>v${npm_package_version}</span>\" toc=categories url=https://github.com/bestiejs/benchmark.js/blob/${npm_package_version}/benchmark.js",
-    "test": "node test/test"
+    "test": "node test/test",
+    "build": "rimraf dist && webpack"
   },
   "dependencies": {
     "lodash": "^4.17.4",
@@ -27,7 +28,9 @@
     "istanbul": "0.4.5",
     "qunit-extras": "^3.0.0",
     "qunitjs": "^2.1.1",
-    "requirejs": "^2.3.2"
+    "requirejs": "^2.3.2",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.14.0"
   },
   "files": [
     "benchmark.js"
