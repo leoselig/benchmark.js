@@ -42,7 +42,7 @@ Using npm:
 $ npm i --save benchmark
 ```
 
-In Node.js:
+In Node.js or with a module bundler (e.g. browserify or webpack):
 
 ```js
 var Benchmark = require('benchmark');
